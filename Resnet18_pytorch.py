@@ -156,7 +156,7 @@ class ResNet(nn.Module):
 
        
         # -------------------- End of code --------------------
-        print('Dimensions of the last convolutional feature map: ', x.shape)
+        #print('Dimensions of the last convolutional feature map: ', x.shape)
 
         x = self.avgpool(x)
         x = torch.flatten(x, 1)
